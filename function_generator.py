@@ -1,8 +1,3 @@
-"""
-N-Pendulum Equation Generator
-Creates callable equations of motion and stores them via dill.
-"""
-
 from __future__ import annotations
 
 import time
@@ -15,9 +10,7 @@ import numpy as np
 
 def _build_equations_of_motion(N: int, gravity: float) -> Callable:
     """
-    Create an equations-of-motion function for an N-link pendulum with unit
-    link lengths and masses. The function returns the state derivatives used by
-    scipy's solve_ivp integrator.
+    equations of motion for N-link pendulum.
     """
 
     # Coupling matrix counts how many masses lie beyond joint i/j
