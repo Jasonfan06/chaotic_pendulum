@@ -2,7 +2,9 @@
 
 A Python implementation of a chaotic N-pendulum simulation using Lagrangian mechanics. Extreme sensitivity of chaotic systems to initial conditions.
 
-This simulation derives equations of motion symbolically using Lagrangian mechanics. Then it animates multiple pendulum instances with slightly different initial conditions to visualize chaos.
+
+https://github.com/user-attachments/assets/e6367f40-4ac1-4c5f-8bbf-db284bfeb968
+
 
 
 ## Installation
