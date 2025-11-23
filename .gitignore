@@ -1,0 +1,36 @@
+__pycache__/
+*.pyc
+cpp_renderer/build/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Simulation outputs (large files)
+*.pkl
+*.npz
+*.mp4
+*.mat
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MATLAB
+*.asv
+*.m~
+
