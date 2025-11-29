@@ -33,7 +33,7 @@ pertubation = float # Positional deviation from each other
 
 ## Output
 
-- `func_N3k.pkl`: Saved equations of motion
+- `func_N{N}k.pkl`: Saved equations of motion
 - `simulation_results.npz`: Simulation data (positions over time)
 - `{N}_pendulum_{M}_instances.mp4`: Final animation video
 
